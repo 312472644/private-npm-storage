@@ -1,0 +1,26 @@
+{
+  "name": "private-npm-storage",
+  "version": "1.0.6",
+  "description": "private-npm-storage project",
+  "main": "index.js",
+  "scripts": {
+    "init": "npm i verdaccio -g",
+    "start": "verdaccio",
+    "add:user": "npm adduser --registry http://localhost:4873/",
+    "publish:package": "npm publish --registry http://localhost:4873/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/312472644/private-npm-storage.git"
+  },
+  "author": "sugar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/312472644/private-npm-storage/issues"
+  },
+  "homepage": "https://github.com/312472644/private-npm-storage#readme",
+  "keywords": [
+    "npm-storage"
+  ],
+  "dependencies": {}
+}
